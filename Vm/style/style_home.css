@@ -1,0 +1,14 @@
+#one
+{
+	background-color: #454545;
+	padding: 3px;
+}
+a
+{
+	color: #ffffff;
+}
+a:hover
+{
+	color: #000000;
+	background-color: #ababab;
+}

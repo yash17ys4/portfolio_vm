@@ -1,0 +1,74 @@
+#one
+		{
+			background-color: #454545;
+			padding: 3px;
+		}
+		a
+		{
+			color: #ffffff;
+		}
+		a:hover
+		{
+			color: #000000;
+			background-color: #ababab;
+		}
+		div.transbox {
+	  		margin: 30px;
+	  		background-color: #ffffff;
+	  		border: 1px solid black;
+	  		opacity: 0.45;
+	  		filter: alpha(opacity=30); /* For IE8 and earlier */
+		}
+		.tag
+		{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%)translateY(-50%);
+			width: 750px;
+			height: 60px;
+			color: #000000;
+		}
+		.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-weight: bold;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+button
+{
+	background-color: #efefef;
+	position: absolute;
+	left: 93%;
+	top: 87%;
+	color: #ffffff;
+}
+.info
+{
+	height: 120px;
+    width: 192px;
+    background-color: #efefef;
+    border: 2px #898989 solid;
+    border-radius: 5px;
+    font-family: helvetica;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}

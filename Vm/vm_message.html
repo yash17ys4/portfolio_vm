@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Message</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta lang="en-US">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style/style_message.css">
+  	<link rel="stylesheet" type="text/css" href="style/style_home.css">
+</head>
+<body style="background-image: url('imgs/12.jpg');">
+	<!--<div class="bg"></div>-->
+	<div class="container-fluid" id="one">
+		<div class="nav nav-pills">
+			<ul class="nav">
+				<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="vm_about.html">About Me</a></li>
+				<li class="nav-item"><a class="nav-link" href="vm_message.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="main">
+			<form name="message" action="mess.php">
+				<label for="Name">Name:</label><br>
+				<input class="textview" type="text" id="Name" name="Name" placeholder="eg. Ken Adams"><br>
+				<label for="emailid">Email ID:</label><br>
+				<input class="textview" type="text" id="emailid" name="Email Id" placeholder="eg.KenAdams1109@blabla.com"><br>
+				<label for="mess">Your Message:</label><br>
+				<textarea id="spl" placeholder="Your message goes here" cols="" rows="8"></textarea>
+				<input type="button" value="Submit" style="position: relative; left: 43%" class="button">
+			</form>
+		</div>
+	</div>
+	<div class="social">
+		<a class="fa fa-facebook" href="#"></a>
+		<a class="fa fa-instagram" href="#"></a>
+		<a class="fa fa-quora" href="#"></a>
+	</div>
+</body>
+</html>
